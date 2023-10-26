@@ -758,6 +758,7 @@ h2 {
         width: 100%;
         height: auto;
     }
+
 }
 
 @media (max-width: 760px) {
@@ -837,7 +838,6 @@ h2 {
         transform: translateY(0);
         max-height: none;
     }
-
 
     .about_us_img {
         width: 100%;
@@ -985,7 +985,6 @@ h2 {
     .continue_shopping {
         padding: 0.5em 3em;
     }
-    
 
     .about_us_container {
         padding: 0em;
