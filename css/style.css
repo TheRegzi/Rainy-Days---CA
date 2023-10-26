@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .logo,
@@ -45,7 +46,6 @@ nav {
     background-position: right;
     width: auto;
     height: 400px;
-    overflow: hidden;
     object-fit: cover;
 }
 
@@ -60,7 +60,7 @@ nav {
     font-family: 'Playfair Display', Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 100px;
     padding-top: 200px;
-    margin: 5px;
+    margin: 0;
     font-size: 35px;
     color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
