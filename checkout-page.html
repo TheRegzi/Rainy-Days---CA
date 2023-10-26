@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Days | Checkout page</title>
+    <link rel="icon" href="favicon/favicon_io (3)/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="index.html"><img src="images/RainyDays_Logo.png" alt="Rainy Days logo" class="logo"></a>
+            </div>
+            <div>
+                <div class="nav_phone">
+                    <a class="nav_links" href="index.html">Home</a>
+                    <a class="nav_links" href="shop.html">Shop</a>
+                    <a class="nav_links" href="about-us.html">About us</a>
+                    <a class="nav_links contact_nav" href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div>
+                <a href="checkout-page.html"><img src="images/shopping cart.PNG" alt="Shopping cart" class="shopping_cart"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <h1 class="checkout">Checkout</h1>
+       <div class="all_checkout_elements">
+       <div class="your_shopping_cart"> 
+            <div class="checkout_headers"><h2>Your shopping cart</h2></div>
+                <div class="shopping_cart_container">
+                    <div>
+                        <a href="jacket-specific-page.html"><img src="images/RainyDays_Jacket1.jpg" alt="Rainy Days jacket 1" class="checkout_img"></a>
+                    </div>
+                    <div>
+                        <p class="bold_style">Rainy Days</p>
+                        <p>Rainy days Water-and Wind Proof Jacket for men</p>
+                        <p>Size: XS</p>
+                        <p>Qty: 1</p>
+                        <p class="bold_style">149,9 EUR</p>
+                    </div>
+                </div>
+                <div class="total bold_style">
+                    <p>Total: 149,9 EUR</p>
+                </div>
+            </div>
+            <div class="shipping">
+                <div class="checkout_headers"><h2>Shipping address</h2></div>
+                <form class="shipping_form">
+                    <div class="customer_name_container">
+                        <input type="text" name="firstname" placeholder="First name" class="shipping_input">
+                        <input type="text" name="lastname" placeholder="Last name" class="shipping_input">
+                    </div>
+                    <input type="text" name="addressline1" placeholder="Address Line 1" class="shipping_input"> 
+                    <input type="text" name="addressline2" placeholder="Address Line 2" class="shipping_input">
+                    <div class="zipcode_city">
+                        <input type="text" name="zipcode" placeholder="Zip Code" class="shipping_input">
+                        <input type="text" name="city" placeholder="City" class="shipping_input">
+                    </div>
+                    <input type="text" name="country" placeholder="Country" class="shipping_input">
+                    <div class="email_mobile">
+                        <input type="email" name="email" placeholder="E-mail" class="shipping_input">
+                        <input type="text" name="mobilephone" placeholder="Mobile Phone" class="shipping_input">
+                    </div>
+                </form>
+            </div>
+            <div class="payment">
+                <div class="checkout_headers"><h2>Payment Method</h2></div>
+                <a href="checkout-success.html" class="payment_link"><img src="images/visa.PNG" alt="Visa credit card payment method" class="payment_buttons"></a>
+                <a href="checkout-success.html" class="payment_link"><img src="images/google pay.PNG" alt="Google pay payment method" class="payment_buttons"></a>
+                <a href="checkout-success.html" class="payment_link"><img src="images/paypal.PNG" alt="Paypal payment method" class="payment_buttons"></a>
+            </div>
+       </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Rainy Days, Inc. All rights reserved</p>
+    </footer>
+</body>
+</html>
