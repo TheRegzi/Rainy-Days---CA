@@ -105,14 +105,8 @@ p {
     color: var(--black);
     border-radius: 7px;
     text-align: center;
-}
-
-.cta:nth-child(1) { 
-    padding: 10px 35px;
-}
-
-.cta:nth-child(2) {
-    padding: 10px 20px;
+    width: 130px;
+    height: 40px;
 }
 
 .bestsellers {
@@ -301,7 +295,6 @@ h2 {
     font-size: 1em;
     width: 90%;
 }
-
 
 .add_to_cart {
     background-color: var(--yellow);
@@ -767,6 +760,10 @@ h2 {
 
 @media (max-width: 760px) {
 
+    .nav_links {
+        padding: 0 0.5em;   
+    }
+
     .bestsellers {
         margin: 1em 1em 0;
         background-color: var(--bright-blue);
@@ -861,8 +858,8 @@ h2 {
     
     .nav_links {
         border-right: 1px solid var(--black);
-        padding-right: 0.4em;
-        font-size: 0.9em;   
+        font-size: 0.9em;
+        padding: 0 0.2em;   
     }
 
     .nav_phone {
@@ -871,10 +868,6 @@ h2 {
     
     .contact_nav {
         border-right: 0;
-    }
-    
-    a {
-        padding: 0em;
     }
     
     body {
