@@ -40,6 +40,7 @@ nav {
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
     color: var(--black);
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .nav_links{
@@ -488,7 +489,7 @@ h2 {
 .continue_shopping {
     position: relative;
     border: 0;
-    padding: .5em;
+    width: 250px;
     font-size: 1.3em;
     margin-top: 1em;
 }
