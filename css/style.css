@@ -222,7 +222,8 @@ h2 {
 }
 
 .shop_jacket_link {
-    width: 24%;
+    width: 27%;
+    margin-left: 2em;
 }
 
 .shop_jackets_frame {
@@ -662,7 +663,6 @@ h2 {
     box-sizing: border-box;
 }
 
-
 .submit_button {
     background-color: var(--grey);
     padding: .5em;
@@ -684,10 +684,6 @@ h2 {
     
     .nav_links{
         margin: 0;
-    }
-    
-    nav a {
-        padding: 0.2rem;
     }
     
     .banner-slogan{
