@@ -35,9 +35,17 @@ nav {
     padding: 10px 25px;
 }
 
+.links {
+    text-decoration: none;
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--black);
+    font-size: 1rem;
+}
+
 .nav_links{
     text-align: center;
     margin: 2em;
+    padding: 2em;
 }
 
 .active {
