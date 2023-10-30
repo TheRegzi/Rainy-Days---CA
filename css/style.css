@@ -300,6 +300,10 @@ h2 {
     font-size: 1.7em;
 }
 
+.product_description h2 {
+    margin-top: 2em;
+}
+
 .product_description p {
     font-size: 1em;
     width: 90%;
