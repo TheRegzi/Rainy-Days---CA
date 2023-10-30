@@ -7,7 +7,8 @@
     --white: #ffffff;
     --yellow: #FFEF42;
     --black: #000000;
-    --grey: #9f9f9f;
+    --grey: #d9d9d9;
+    --dark-grey: #9F9F9F;
 }
 
 body {
@@ -108,6 +109,12 @@ p {
     text-align: center;
     width: 130px;
     height: 40px;
+}
+
+a.cta.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bestsellers {
@@ -298,15 +305,6 @@ h2 {
     width: 90%;
 }
 
-.add_to_cart {
-    background-color: var(--yellow);
-    color: var(--black);
-    border-radius: 2em;
-    border: 0;
-    padding: 1em 6em;
-    text-align: center;
-}
-
 .arrow {
     width: 20px;
     height: auto;
@@ -315,7 +313,7 @@ h2 {
 }
 
 .sizes_form {
-    padding: .5em;
+    padding: 0 0 1em 0;
 }
 
 .sizes {
@@ -328,6 +326,16 @@ h2 {
     font-family: 'Source Sans 3', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
 }
+
+.add_to_cart {
+    background-color: var(--yellow);
+    color: var(--black);
+    border-radius: 2em;
+    border: 0;
+    padding: 1em 7em;
+    text-align: center;
+}
+
 
 /* Checkout page */
 
@@ -407,7 +415,7 @@ h2 {
 .shipping_input {
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--dark-grey);
     font-family: 'Source Sans 3', Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 20px;
     width: 100%;
@@ -657,7 +665,7 @@ h2 {
 .contact_form {
     padding: 1em;
     border-radius: 5px;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--dark-grey);
     font-family: 'Source Sans 3', Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1em;
     width: 100%;
