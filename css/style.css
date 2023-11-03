@@ -798,6 +798,7 @@ h2 {
 
     .shop_jacket_link {
         width: 80%;
+        margin-left: 0em;
     }
 
     .shop_jackets_frame {
@@ -904,7 +905,7 @@ h2 {
     .jacket_selection_description h1 {
         padding: 1em 1em 0em;
     }
-    
+
     .jacket_selection_description p {
         padding: 0em 1.5em 0em;
     }
@@ -915,8 +916,9 @@ h2 {
     
     .shop_jacket_link {
         width: 90%;
+        margin-left: 0.8em;
     }
-    
+
     .product_container {
         gap: 0;
         margin: 1em;
