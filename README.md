@@ -1,4 +1,5 @@
-Rainy Days - Online Clothing Store
+# Rainy Days Course Assignment
+![website image](images/rainy-days-website-image.JPG)
 This is the README file for my first front-end project called "Rainy Days." This project is a simple online clothing store that I have developed as part of my front-end studies.
 
 Project Description
