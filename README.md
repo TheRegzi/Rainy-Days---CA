@@ -14,7 +14,7 @@ This is the README file for my first front-end project called "Rainy Days." This
 
 # Contact 
 
-[My Linkedin Page](https://www.linkedin.com/in/regine-dille-kornbakk-aa0a7b288/)
+[My LinkedIn Page](https://www.linkedin.com/in/regine-dille-kornbakk-aa0a7b288/)
 
 # Website Link
 
