@@ -39,4 +39,4 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Website Link
 
-https://theregzi.github.io/Rainy-Days-Course-Assignment/
+https://theregzi.github.io/Rainy-Days-Cross-Course-Project/
