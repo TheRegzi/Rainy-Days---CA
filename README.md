@@ -1,4 +1,4 @@
-# Rainy Days Course Assignment
+# Rainy Days Cross-Course Project
 ![website image](images/rainy-days-website-image.JPG)
 
 This is the README file for my first front-end project called "Rainy Days." This project is a simple online clothing store that I have developed as part of my Front-End Development studies at Noroff Vocational School.
